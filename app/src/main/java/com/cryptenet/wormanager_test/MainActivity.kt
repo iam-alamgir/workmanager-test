@@ -1,4 +1,4 @@
-idpackage com.cryptenet.wormanager_test
+package com.cryptenet.wormanager_test
 
 import android.os.Bundle
 import com.google.android.material.floatingactionbutton.FloatingActionButton
