@@ -50,7 +50,7 @@ class FirstFragment : Fragment() {
             )
         }
 
-        view.findViewById<Button>(R.id.button_first).setOnClickListener {
+        view.findViewById<Button>(R.id.buttonAutoKeepWork).setOnClickListener {
             WorkManager.getInstance(requireContext()).enqueueUniquePeriodicWork(
                 AUTO_KEEP_WORK_TAG,
                 ExistingPeriodicWorkPolicy.KEEP,
